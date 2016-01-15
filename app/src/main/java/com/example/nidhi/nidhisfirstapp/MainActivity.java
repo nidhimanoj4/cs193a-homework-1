@@ -1,4 +1,7 @@
 package com.example.nidhi.nidhisfirstapp;
+// Nidhi Manoj
+// Guessing Game - This app asks the user to guess a number from 1-10. If they guess the random
+// number correctly, then they win!
 
         import android.support.v7.app.AppCompatActivity;
         import android.os.Bundle;
@@ -41,7 +44,6 @@ public class MainActivity extends AppCompatActivity {
         }else {
             Toast.makeText(this,"You lose! " + toasttext, Toast.LENGTH_SHORT).show();
         }
-//        String gettext = ed.getText();
 
     }
 
@@ -50,47 +52,4 @@ public class MainActivity extends AppCompatActivity {
         ed.setText("");
     }
 
-//    public void pickNumbers() {
-//        Button lbutton = (Button) findViewById(R.id.leftButton);
-//        Button rbutton = (Button) findViewById(R.id.rightButton);
-//        Random randy = new Random();
-//        num1 = 0;
-//        num2 = 0;
-//        while (num1 == num2) {
-//            num1 = randy.nextInt(10);
-//            num2 = randy.nextInt(10);
-//        }
-//        lbutton.setText(String.valueOf(num1));
-//        rbutton.setText(String.valueOf(num2));
-//    }
-//
-//    public void leftButtonClick(View view) {
-//        // runs when the left button gets clicked
-//        if (num1 > num2) {
-//            Toast.makeText(this, "Correct!", Toast.LENGTH_SHORT).show();
-//            points++;
-//        } else {
-//            Toast.makeText(this, "You are STUPID!!!", Toast.LENGTH_SHORT).show();
-//            points--;
-//        }
-//        TextView pointsView = (TextView) findViewById(R.id.pointsView);
-//        pointsView.setText("Points: " + points);
-//
-//        pickNumbers();
-//    }
-//
-//    public void rightButtonClick(View view) {
-//        // runs when the right button gets clicked
-//        if (num2 > num1) {
-//            Toast.makeText(this, "Correct!", Toast.LENGTH_SHORT).show();
-//            points++;
-//        } else {
-//            Toast.makeText(this, "You are STUPID!!!", Toast.LENGTH_SHORT).show();
-//            points--;
-//        }
-//        TextView pointsView = (TextView) findViewById(R.id.pointsView);
-//        pointsView.setText("Points: " + points);
-//
-//        pickNumbers();
-//    }
 }
